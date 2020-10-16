@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.lateautumn4lin.cattle.SQLiteCattleActivity">
+    <Button
+        android:id="@+id/btn_insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="插入数据"
+        android:layout_marginTop="10dp"
+        android:onClick="clickEvent"/>
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除数据"
+        android:layout_marginTop="10dp"
+        android:onClick="clickEvent"/>
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="更新数据"
+        android:layout_marginTop="10dp"
+        android:onClick="clickEvent"/>
+    <Button
+        android:id="@+id/btn_query"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查询数据"
+        android:layout_marginTop="10dp"
+        android:onClick="clickEvent"/>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="回主页"
+        android:layout_marginTop="10dp"
+        android:onClick="clickBack"/>
+</LinearLayout>
